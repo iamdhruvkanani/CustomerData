@@ -1,0 +1,131 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+*{
+    font-family: 'Pacifico';
+}
+.navcus{
+    border: 0;
+    border-radius: 0 !important;
+    font-size: 20px;
+    background-image:linear-gradient(65deg ,#c9a0dc 0,#7851a9 100%);
+}
+.navbar-brand{
+    font-weight: 900;
+    font-size: 20px;
+    font-family: 'Pacifico';
+}
+.pett{
+
+    /*text-align: center;*/
+    width: 100%;
+    margin: 0px auto;
+    color: #fff;
+    font-size: 50px;
+    letter-spacing: 5px;
+
+    margin-top: -40px;
+    text-shadow: -1px -1px 0px #c9a0dc, 3px 3px 0px #ae87d0, 6px 6px 0px #7851a9;
+    font-family: 'Pacifico';
+}
+.alert-custom{
+    color: #7851a9;
+    background-color: #ddc7e8;
+    border-color: #ae87d0;
+}
+.tbl{
+    background-image:linear-gradient(45deg ,#c9a0dc 0,#7851a9 100%);
+    border-radius: 10px;
+}
+.inbdy{
+    position: relative;
+    min-height: 100vh;
+}
+.bgimg{
+    background-image: url("../detailimg.png");
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.3;
+    z-index: -1;
+}
+.tbl td,.tbl th {border: none !important; color: #402a5d;}
+.cbimg{
+    background-image: url("../detailimg.png");
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.3;
+}
+.cimg{
+    position: relative;
+    background-image:linear-gradient(65deg ,#c9a0dc 0,#7851a9 100%);
+    border-radius: 10px;
+    color: #402a5d;
+}
+.card-header,.card-body{
+    z-index: 5;
+}
+
+
+
+footer {
+    background: #16222A;
+    background: -webkit-linear-gradient(65deg ,#7851a9 0,#7851a9 100%);
+    background: linear-gradient(65deg ,#7851a9 0,#7851a9 100%);
+    color: white;
+    margin-top:100px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+button {
+    border-radius: 4px;
+    background-color: #ae87d0;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 10px;
+    width: 100px;
+    padding-bottom: 10px;
+    transition: all 0.5s;
+    cursor: pointer;
+    /* margin: 36px; */
+    box-shadow: 0 10px 20px -8px rgb(0 0 0 / 70%);
+}
+
+button{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+button:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 8px;
+    right: -20px;
+    transition: 0.5s;
+}
+
+button:hover{
+    padding-right: 24px;
+    padding-left:8px;
+}
+
+button:hover:after {
+    opacity: 1;
+    right: 18px;
+}
+.btn-cust{
+    left: 50%;
+    transform: translateX(-50%);
+}
